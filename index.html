@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
-    <link rel="stylesheet" href="app.generated.css?v=0.0.1" />
+    <link rel="stylesheet" href="app.generated.css?v=0.0.2" />
     <link rel="icon" type="image/png" href="favicon.ico" />
     <link rel="stylesheet" href="https://use.typekit.net/wxk4mhh.css" />
     <title>Frontend Mastery</title>
@@ -22,8 +22,7 @@
       })(window, document, 'script', 'dataLayer', 'GTM-WNMXKPQL');
     </script>
     <!-- End Google Tag Manager -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="scripts/tiny-slider.js?v=2.9.2"></script>
     <script>
       (function (h, o, u, n, d) {
         h = h[d] = h[d] || {
@@ -48,7 +47,7 @@
           service: 'frontend-mastery-landing-page',
           env: 'prod',
           // Specify a version number to identify the deployed version of your application in Datadog
-          version: '0.0.1',
+          version: '0.0.2',
           sessionSampleRate: 100,
           sessionReplaySampleRate: 40,
           trackUserInteractions: true,
@@ -131,19 +130,34 @@
 
       <div class="w-full -mt-[100px] md:-mt-[160px] mb-10 md:mb-20">
         <div class="md:mx-auto max-w-screen-xl px-5 md:px-10">
-          <div class="flex flex-col lg:flex-row text-gray-800">
+          <div class="flex flex-col xl:flex-row text-gray-800">
             <div
-              class="lg:mx-0 w-full sm:max-w-[480px] h-[302px] mt-10 flex justify-center self-center lg:self-start lg:items-center shrink-0 rounded-l overflow-hidden"
+              class="lg:mx-0 w-full max-w-[800px] h-[500px] mt-10 flex justify-center self-center lg:self-start lg:items-center shrink-0 rounded-l overflow-hidden"
             >
               <div id="carousel">
-                <div class="w-full h-[302px]">
-                  <img class="size-full object-cover" src="/images/slide-dec81b8a.png" alt="" />
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/welcome.png" alt="" width="800" height="500" />
                 </div>
-                <div class="w-full h-[302px]">
-                  <img class="size-full object-cover" src="/images/slide-73a84fdd.png" alt="" />
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/challenges.png" alt="" width="800" height="500" />
                 </div>
-                <div class="w-full h-[302px]">
-                  <img class="size-full object-cover" src="/images/slide-02385268.png" alt="" />
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/challenge-details.png" alt="" width="800" height="500" />
+                </div>
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/code-editor.png" alt="" width="800" height="500" />
+                </div>
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/solutions.png" alt="" width="800" height="500" />
+                </div>
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/developer-profile.png" alt="" width="800" height="500" />
+                </div>
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/learning-paths.png" alt="" width="800" height="500" />
+                </div>
+                <div class="w-full w-[800px] h-[500px]">
+                  <img class="size-full object-contain" src="images/slider/dashboard.png" alt="" width="800" height="500" />
                 </div>
               </div>
             </div>
